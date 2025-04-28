@@ -5,24 +5,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
-import os
 import undetected_chromedriver as uc
 
-def convert_age(age_str):
-    if isinstance(age_str, str) and '-' in age_str:
-        try:
-            year, days = map(int, age_str.split('-'))
-            return f'{(year + days / 365):.2f}'
-        except:
-            return None
-    return None  # nếu không phải chuỗi hoặc sai định dạng
 
-def convert_nation(nation_str):
-    res=''
-    for x in nation_str:
-        if x.isupper():
-            res+=x
-    return res
 # Khởi tạo driver
 options=uc.ChromeOptions()
 service = Service(ChromeDriverManager().install())
@@ -69,7 +54,6 @@ df_stat_standard = tables['stats_standard']
 df_stat_standard['Min'] = pd.to_numeric(df_stat_standard['Min'].str.replace(',', ''), errors='coerce')
 
 # Lọc cầu thủ đá hơn 90 phút
-# df_stat_standard['Nation'] = df_stat_standard['Nation'].apply(convert_nation)
 df_stat_standard = df_stat_standard[df_stat_standard['Min'] > 90] # loc cau thu da tren 90p
 df_stat_standard = df_stat_standard.sort_values(by='Player')  # sap xep ten theo thu tu tăng dần
 
@@ -124,7 +108,7 @@ df_stat_standard = df_stat_standard.replace("", "N/a").fillna("N/a")
 df_stat_standard['Nation'] = df_stat_standard['Nation'].apply(convert_nation)
 # df_stat_standard['Age'] = df_stat_standard['Age'].apply(convert_age) #chuyen tuoi ve dang thap phan
 
-#swap squad với pos
+
 
 header=[
     "Player","Nation","Pos","Team","Age","MP","Starts","Min","Gls","Ast","CrdY","CrdR","xG","xAG",
@@ -138,6 +122,8 @@ header=[
     "possession_carries_1_3","possession_carries_cpa","possession_carries_mis","possession_carries_dis","possession_receiving_rec","possession_receiving_prgr",
     "misc_performance_fls","misc_performance_fld","misc_performance_off","misc_performance_crs","misc_performance_recov","misc_aerial_won","misc_aerial_lost","misc_aerial_wonpct"
 ]
+
+#swap squad với pos
 df_stat_standard.columns=header
 cols = list(df_stat_standard.columns)
 i, j = cols.index('Team'), cols.index('Pos')

@@ -12,7 +12,7 @@ def convert_age(age_str):
 file_path = r'E:\ket_qua_bai_tap_lon\Code\results.csv'
 df=pd.read_csv(file_path)
 teams= sorted(list(set(list(df['Team']))))
-headers = list(df.columns)[4:]
+headers = ["Gls", "shooting_standard_sotpct","shooting_standard_sot_per90","defense_tackles_tklw","defense_challenges_att","defense_challenges_lost","defense_blocks_blocks"]
 
 for team in teams:
     df_copy=df.copy()

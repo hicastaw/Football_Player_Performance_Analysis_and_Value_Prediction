@@ -53,7 +53,6 @@ for team in teams:
 # Đưa về DataFrame kết quả
 summary_df = pd.DataFrame(result_rows, columns=a)
 
-# In thử vài dòng
 
 # (tuỳ chọn) Lưu ra file Excel hoặc CSV
 file_path = r'E:\ket_qua_bai_tap_lon\Code\results2.csv'
