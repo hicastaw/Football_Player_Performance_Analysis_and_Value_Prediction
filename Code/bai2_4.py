@@ -1,21 +1,41 @@
 import pandas as pd
 
+# Load the CSV file into a DataFrame
 file_path = r'E:\ket_qua_bai_tap_lon\Code\results2.csv'
-df= pd.read_csv(file_path)
+df = pd.read_csv(file_path)
 
-teams= set(df.iloc[1:,1])
+# Create a set of teams from the second column (ignoring the first row which is header)
+teams = set(df.iloc[1:, 1])
 
-danh_sach_highest = {team : 0 for team in teams}
+# Initialize a dictionary to keep track of how many highest stats each team has
+danh_sach_highest = {team: 0 for team in teams}
 
-headers=list(df.columns)[3::3]
+# Get the headers from the DataFrame starting from the fourth column and take every third column
+headers = list(df.columns)[3::3]
 
+# Iterate over each header (statistic category) in the list
 for head in headers:
-    numberic=df[head].apply(pd.to_numeric, errors='coerce')
+    # Convert the column data to numeric, coercing errors to NaN
+    numberic = df[head].apply(pd.to_numeric, errors='coerce')
+    
+    # Skip the column if all values are NaN
     if numberic.isna().all():
-        continue    
-    idx_max=numberic.idxmax()
-    team=df.iloc[idx_max, 1]
-    danh_sach_highest[team] +=1
+        continue
+    
+    # Get the index of the highest value in the column
+    idx_max = numberic.idxmax()
+    
+    # Get the team that has the highest value for this statistic
+    team = df.iloc[idx_max, 1]
+    
+    # Update the dictionary by incrementing the count for the team with the highest stat
+    danh_sach_highest[team] += 1
+    
+    # Print the team with the highest value for this stat
     print(f"Highest {head} is {team}")
-team_win=max(danh_sach_highest, key=danh_sach_highest.get)
+
+# Determine the team that has the most highest stats
+team_win = max(danh_sach_highest, key=danh_sach_highest.get)
+
+# Print the team with the most highest stats
 print(f"Highest team is {team_win}")

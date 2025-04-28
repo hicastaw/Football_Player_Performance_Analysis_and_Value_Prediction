@@ -1,886 +1,886 @@
--------------Top 3 player highest at Age: -------------
+-------------Top 3 players with highest Age: -------------
           Player Nation     Team   Pos   Age
 Łukasz Fabiański    POL West Ham    GK 40.03
     Ashley Young    ENG  Everton DF,FW 39.80
     James Milner    ENG Brighton    MF 39.31
 
--------------Bottom 3 player lowest at Age: -------------
+-------------Bottom 3 players with lowest Age: -------------
        Player Nation           Team   Pos   Age
   Mikey Moore    ENG      Tottenham FW,MF 17.71
 Ethan Nwaneri    ENG        Arsenal FW,MF 18.10
   Harry Amass    ENG Manchester Utd    DF 18.12
 
--------------Top 3 player highest at MP: -------------
+-------------Top 3 players with highest MP: -------------
          Player Nation          Team   Pos  MP
      Alex Iwobi    NGA        Fulham FW,MF  34
      Bernd Leno    GER        Fulham    GK  34
 Bruno Guimarães    BRA Newcastle Utd    MF  34
 
--------------Bottom 3 player lowest at MP: -------------
+-------------Bottom 3 players with lowest MP: -------------
        Player Nation           Team Pos  MP
  Ayden Heaven    ENG Manchester Utd  DF   2
 Billy Gilmour    SCO       Brighton  MF   2
    Danny Ward    WAL Leicester City  GK   2
 
--------------Top 3 player highest at Starts: -------------
+-------------Top 3 players with highest Starts: -------------
          Player Nation          Team Pos  Starts
      Bernd Leno    GER        Fulham  GK      34
 Bruno Guimarães    BRA Newcastle Utd  MF      34
      David Raya    ESP       Arsenal  GK      34
 
--------------Bottom 3 player lowest at Starts: -------------
+-------------Bottom 3 players with lowest Starts: -------------
        Player Nation           Team   Pos  Starts
 Ali Al Hamadi    IRQ   Ipswich Town    FW       0
        Antony    BRA Manchester Utd DF,MF       0
  Ben Chilwell    ENG Crystal Palace    DF       0
 
--------------Top 3 player highest at Min: -------------
+-------------Top 3 players with highest Min: -------------
         Player Nation           Team Pos  Min
     Bernd Leno    GER         Fulham  GK 3060
     David Raya    ESP        Arsenal  GK 3060
 Dean Henderson    ENG Crystal Palace  GK 3060
 
--------------Bottom 3 player lowest at Min: -------------
+-------------Bottom 3 players with lowest Min: -------------
               Player Nation            Team Pos  Min
        Harrison Reed    ENG          Fulham  MF   93
         Ayden Heaven    ENG  Manchester Utd  DF   95
 Jahmai Simpson-Pusey    ENG Manchester City  DF   96
 
--------------Top 3 player highest at Gls: -------------
+-------------Top 3 players with highest Gls: -------------
         Player Nation            Team Pos  Gls
  Mohamed Salah    EGY       Liverpool  FW   28
 Alexander Isak    SWE   Newcastle Utd  FW   22
 Erling Haaland    NOR Manchester City  FW   21
 
--------------Bottom 3 player lowest at Gls: -------------
+-------------Bottom 3 players with lowest Gls: -------------
             Player Nation            Team Pos  Gls
    Aaron Cresswell    ENG        West Ham  DF    0
     Aaron Ramsdale    ENG     Southampton  GK    0
 Abdukodir Khusanov    UZB Manchester City  DF    0
 
--------------Top 3 player highest at Ast: -------------
+-------------Top 3 players with highest Ast: -------------
           Player Nation          Team Pos  Ast
    Mohamed Salah    EGY     Liverpool  FW   18
     Jacob Murphy    ENG Newcastle Utd  FW   11
 Antonee Robinson    USA        Fulham  DF   10
 
--------------Bottom 3 player lowest at Ast: -------------
+-------------Bottom 3 players with lowest Ast: -------------
             Player Nation            Team Pos  Ast
    Aaron Cresswell    ENG        West Ham  DF    0
     Aaron Ramsdale    ENG     Southampton  GK    0
 Abdukodir Khusanov    UZB Manchester City  DF    0
 
--------------Top 3 player highest at CrdY: -------------
+-------------Top 3 players with highest CrdY: -------------
      Player Nation           Team Pos  CrdY
  Saša Lukić    SRB         Fulham  MF    12
 Will Hughes    ENG Crystal Palace  MF    11
    Dan Burn    ENG  Newcastle Utd  DF    10
 
--------------Bottom 3 player lowest at CrdY: -------------
+-------------Bottom 3 players with lowest CrdY: -------------
                Player Nation           Team   Pos  CrdY
 Abdul Fatawu Issahaku    GHA Leicester City    FW     0
          Adam Webster    ENG       Brighton    DF     0
       Albert Grønbaek    DEN    Southampton FW,MF     0
 
--------------Top 3 player highest at CrdR: -------------
+-------------Top 3 players with highest CrdR: -------------
             Player Nation           Team Pos  CrdR
    Bruno Fernandes    POR Manchester Utd  MF     2
      Jack Stephens    ENG    Southampton  DF     2
 Myles Lewis-Skelly    ENG        Arsenal  DF     2
 
--------------Bottom 3 player lowest at CrdR: -------------
+-------------Bottom 3 players with lowest CrdR: -------------
            Player Nation        Team Pos  CrdR
   Aaron Cresswell    ENG    West Ham  DF     0
    Aaron Ramsdale    ENG Southampton  GK     0
 Aaron Wan-Bissaka    ENG    West Ham  DF     0
 
--------------Top 3 player highest at xG: -------------
+-------------Top 3 players with highest xG: -------------
         Player Nation            Team Pos   xG
  Mohamed Salah    EGY       Liverpool  FW 23.9
 Erling Haaland    NOR Manchester City  FW 20.8
 Alexander Isak    SWE   Newcastle Utd  FW 19.0
 
--------------Bottom 3 player lowest at xG: -------------
+-------------Bottom 3 players with lowest xG: -------------
             Player Nation            Team Pos  xG
     Aaron Ramsdale    ENG     Southampton  GK 0.0
 Abdukodir Khusanov    UZB Manchester City  DF 0.0
       Adam Webster    ENG        Brighton  DF 0.0
 
--------------Top 3 player highest at xAG: -------------
+-------------Top 3 players with highest xAG: -------------
        Player Nation      Team Pos  xAG
 Mohamed Salah    EGY Liverpool  FW 12.8
   Cole Palmer    ENG   Chelsea  MF  9.3
 Son Heung-min    KOR Tottenham  FW  8.2
 
--------------Bottom 3 player lowest at xAG: -------------
+-------------Bottom 3 players with lowest xAG: -------------
          Player Nation        Team   Pos  xAG
  Aaron Ramsdale    ENG Southampton    GK  0.0
 Albert Grønbaek    DEN Southampton FW,MF  0.0
   Alex McCarthy    ENG Southampton    GK  0.0
 
--------------Top 3 player highest at progression_prgc: -------------
+-------------Top 3 players with highest progression_prgc: -------------
        Player Nation            Team   Pos  progression_prgc
   Jeremy Doku    BEL Manchester City FW,MF               176
 Mohamed Salah    EGY       Liverpool    FW               142
  Kaoru Mitoma    JPN        Brighton FW,MF               138
 
--------------Bottom 3 player lowest at progression_prgc: -------------
+-------------Bottom 3 players with lowest progression_prgc: -------------
         Player Nation         Team Pos  progression_prgc
 Aaron Ramsdale    ENG  Southampton  GK                 0
  Alex McCarthy    ENG  Southampton  GK                 0
    Alex Palmer    ENG Ipswich Town  GK                 0
 
--------------Top 3 player highest at progression_prgp: -------------
+-------------Top 3 players with highest progression_prgp: -------------
          Player Nation            Team Pos  progression_prgp
 Bruno Fernandes    POR  Manchester Utd  MF               281
 Bruno Guimarães    BRA   Newcastle Utd  MF               241
  Joško Gvardiol    CRO Manchester City  DF               240
 
--------------Bottom 3 player lowest at progression_prgp: -------------
+-------------Bottom 3 players with lowest progression_prgp: -------------
         Player Nation        Team Pos  progression_prgp
 Aaron Ramsdale    ENG Southampton  GK                 0
  Alex McCarthy    ENG Southampton  GK                 0
        Alisson    BRA   Liverpool  GK                 0
 
--------------Top 3 player highest at progression_prgr: -------------
+-------------Top 3 players with highest progression_prgr: -------------
        Player Nation      Team   Pos  progression_prgr
 Mohamed Salah    EGY Liverpool    FW               425
  Bryan Mbeumo    CMR Brentford    FW               300
  Kaoru Mitoma    JPN  Brighton FW,MF               277
 
--------------Bottom 3 player lowest at progression_prgr: -------------
+-------------Bottom 3 players with lowest progression_prgr: -------------
         Player Nation         Team Pos  progression_prgr
 Aaron Ramsdale    ENG  Southampton  GK                 0
  Alex McCarthy    ENG  Southampton  GK                 0
    Alex Palmer    ENG Ipswich Town  GK                 0
 
--------------Top 3 player highest at per90_gls: -------------
+-------------Top 3 players with highest per90_gls: -------------
        Player Nation            Team   Pos  per90_gls
 Donyell Malen    NED     Aston Villa    FW       0.99
   Jáder Durán    COL     Aston Villa    FW       0.99
  James Mcatee    ENG Manchester City MF,FW       0.91
 
--------------Bottom 3 player lowest at per90_gls: -------------
+-------------Bottom 3 players with lowest per90_gls: -------------
             Player Nation            Team Pos  per90_gls
    Aaron Cresswell    ENG        West Ham  DF        0.0
     Aaron Ramsdale    ENG     Southampton  GK        0.0
 Abdukodir Khusanov    UZB Manchester City  DF        0.0
 
--------------Top 3 player highest at per90_ast: -------------
+-------------Top 3 players with highest per90_ast: -------------
         Player Nation     Team   Pos  per90_ast
 Tyrique George    ENG  Chelsea    FW       0.87
     Danny Ings    ENG West Ham FW,MF       0.63
    Bukayo Saka    ENG  Arsenal FW,MF       0.62
 
--------------Bottom 3 player lowest at per90_ast: -------------
+-------------Bottom 3 players with lowest per90_ast: -------------
             Player Nation            Team Pos  per90_ast
    Aaron Cresswell    ENG        West Ham  DF        0.0
     Aaron Ramsdale    ENG     Southampton  GK        0.0
 Abdukodir Khusanov    UZB Manchester City  DF        0.0
 
--------------Top 3 player highest at per90_xg: -------------
+-------------Top 3 players with highest per90_xg: -------------
        Player Nation            Team   Pos  per90_xg
  James Mcatee    ENG Manchester City MF,FW      0.85
 Marco Asensio    ESP     Aston Villa MF,FW      0.78
   Richarlison    BRA       Tottenham    FW      0.78
 
--------------Bottom 3 player lowest at per90_xg: -------------
+-------------Bottom 3 players with lowest per90_xg: -------------
             Player Nation            Team Pos  per90_xg
     Aaron Ramsdale    ENG     Southampton  GK       0.0
 Abdukodir Khusanov    UZB Manchester City  DF       0.0
       Adam Webster    ENG        Brighton  DF       0.0
 
--------------Top 3 player highest at per90_xag: -------------
+-------------Top 3 players with highest per90_xag: -------------
          Player Nation        Team   Pos  per90_xag
  Tyrique George    ENG     Chelsea    FW       0.63
 Mykhailo Mudryk    UKR     Chelsea    FW       0.58
 Luis Sinisterra    COL Bournemouth FW,MF       0.54
 
--------------Bottom 3 player lowest at per90_xag: -------------
+-------------Bottom 3 players with lowest per90_xag: -------------
         Player Nation         Team Pos  per90_xag
 Aaron Ramsdale    ENG  Southampton  GK        0.0
  Alex McCarthy    ENG  Southampton  GK        0.0
    Alex Palmer    ENG Ipswich Town  GK        0.0
 
--------------Top 3 player highest at goalkeeping_performance_ga90: -------------
+-------------Top 3 players with highest goalkeeping_performance_ga90: -------------
           Player Nation           Team Pos  goalkeeping_performance_ga90
       Danny Ward    WAL Leicester City  GK                          4.00
 Christian Walton    ENG   Ipswich Town  GK                          2.67
    Alex McCarthy    ENG    Southampton  GK                          2.60
 
--------------Bottom 3 player lowest at goalkeeping_performance_ga90: -------------
+-------------Bottom 3 players with lowest goalkeeping_performance_ga90: -------------
       Player Nation      Team Pos  goalkeeping_performance_ga90
 Jason Steele    ENG  Brighton  GK                          0.50
      Alisson    BRA Liverpool  GK                          0.84
   David Raya    ESP   Arsenal  GK                          0.85
 
--------------Top 3 player highest at goalkeeping_performance_savepct: -------------
+-------------Top 3 players with highest goalkeeping_performance_savepct: -------------
         Player Nation        Team Pos  goalkeeping_performance_savepct
           Neto    BRA Bournemouth  GK                             84.6
   Mark Travers    IRL Bournemouth  GK                             80.0
 Robert Sánchez    ESP     Chelsea  GK                             76.7
 
--------------Bottom 3 player lowest at goalkeeping_performance_savepct: -------------
+-------------Bottom 3 players with lowest goalkeeping_performance_savepct: -------------
                  Player Nation           Team Pos  goalkeeping_performance_savepct
              Danny Ward    WAL Leicester City  GK                             40.0
 Hákon Rafn Valdimarsson    ISL      Brentford  GK                             50.0
             Robin Olsen    SWE    Aston Villa  GK                             55.6
 
--------------Top 3 player highest at goalkeeping_performance_cspct: -------------
+-------------Top 3 players with highest goalkeeping_performance_cspct: -------------
                  Player Nation        Team Pos  goalkeeping_performance_cspct
 Hákon Rafn Valdimarsson    ISL   Brentford  GK                          100.0
             Robin Olsen    SWE Aston Villa  GK                          100.0
            Jason Steele    ENG    Brighton  GK                           50.0
 
--------------Bottom 3 player lowest at goalkeeping_performance_cspct: -------------
+-------------Bottom 3 players with lowest goalkeeping_performance_cspct: -------------
        Player Nation           Team Pos  goalkeeping_performance_cspct
 Alex McCarthy    ENG    Southampton  GK                            0.0
   Alex Palmer    ENG   Ipswich Town  GK                            0.0
    Danny Ward    WAL Leicester City  GK                            0.0
 
--------------Top 3 player highest at goalkeeping_penalties_savepct: -------------
+-------------Top 3 players with highest goalkeeping_penalties_savepct: -------------
            Player Nation           Team Pos  goalkeeping_penalties_savepct
 Caoimhín Kelleher    IRL      Liverpool  GK                          100.0
   Jordan Pickford    ENG        Everton  GK                          100.0
    Dean Henderson    ENG Crystal Palace  GK                           50.0
 
--------------Bottom 3 player lowest at goalkeeping_penalties_savepct: -------------
+-------------Bottom 3 players with lowest goalkeeping_penalties_savepct: -------------
         Player Nation         Team Pos  goalkeeping_penalties_savepct
  Alex McCarthy    ENG  Southampton  GK                            0.0
    Alex Palmer    ENG Ipswich Town  GK                            0.0
 Arijanet Muric    KVX Ipswich Town  GK                            0.0
 
--------------Top 3 player highest at shooting_standard_sotpct: -------------
+-------------Top 3 players with highest shooting_standard_sotpct: -------------
       Player Nation           Team   Pos  shooting_standard_sotpct
 Adam Webster    ENG       Brighton    DF                     100.0
  Archie Gray    ENG      Tottenham DF,MF                     100.0
  Conor Coady    ENG Leicester City    DF                     100.0
 
--------------Bottom 3 player lowest at shooting_standard_sotpct: -------------
+-------------Bottom 3 players with lowest shooting_standard_sotpct: -------------
             Player Nation            Team Pos  shooting_standard_sotpct
    Aaron Cresswell    ENG        West Ham  DF                       0.0
 Abdukodir Khusanov    UZB Manchester City  DF                       0.0
       Adam Lallana    ENG     Southampton  MF                       0.0
 
--------------Top 3 player highest at shooting_standard_sot_per90: -------------
+-------------Top 3 players with highest shooting_standard_sot_per90: -------------
          Player Nation        Team   Pos  shooting_standard_sot_per90
    Julio Enciso    PAR    Brighton MF,FW                         3.37
   Donyell Malen    NED Aston Villa    FW                         2.64
 Luis Sinisterra    COL Bournemouth FW,MF                         2.29
 
--------------Bottom 3 player lowest at shooting_standard_sot_per90: -------------
+-------------Bottom 3 players with lowest shooting_standard_sot_per90: -------------
             Player Nation            Team Pos  shooting_standard_sot_per90
    Aaron Cresswell    ENG        West Ham  DF                          0.0
     Aaron Ramsdale    ENG     Southampton  GK                          0.0
 Abdukodir Khusanov    UZB Manchester City  DF                          0.0
 
--------------Top 3 player highest at shooting_standard_g_sh: -------------
+-------------Top 3 players with highest shooting_standard_g_sh: -------------
             Player Nation            Team   Pos  shooting_standard_g_sh
        John Stones    ENG Manchester City DF,MF                     1.0
        Axel Disasi    FRA         Chelsea    DF                     0.5
 Myles Lewis-Skelly    ENG         Arsenal    DF                     0.5
 
--------------Bottom 3 player lowest at shooting_standard_g_sh: -------------
+-------------Bottom 3 players with lowest shooting_standard_g_sh: -------------
                Player Nation            Team Pos  shooting_standard_g_sh
       Aaron Cresswell    ENG        West Ham  DF                     0.0
    Abdukodir Khusanov    UZB Manchester City  DF                     0.0
 Abdul Fatawu Issahaku    GHA  Leicester City  FW                     0.0
 
--------------Top 3 player highest at shooting_standard_dist: -------------
+-------------Top 3 players with highest shooting_standard_dist: -------------
           Player Nation            Team   Pos  shooting_standard_dist
  Ibrahim Sangaré    CIV Nott'ham Forest    MF                    32.0
 Emmanuel Agbadou    CIV          Wolves    DF                    31.8
      Ryan Fraser    SCO     Southampton FW,DF                    31.6
 
--------------Bottom 3 player lowest at shooting_standard_dist: -------------
+-------------Bottom 3 players with lowest shooting_standard_dist: -------------
         Player Nation            Team   Pos  shooting_standard_dist
 Kieran Tierney    SCO         Arsenal DF,FW                     2.6
   Harry Clarke    ENG    Ipswich Town    DF                     4.5
    John Stones    ENG Manchester City DF,MF                     5.1
 
--------------Top 3 player highest at passing_total_cmp: -------------
+-------------Top 3 players with highest passing_total_cmp: -------------
          Player Nation            Team Pos  passing_total_cmp
 Virgil van Dijk    NED       Liverpool  DF               2446
  William Saliba    FRA         Arsenal  DF               2273
  Joško Gvardiol    CRO Manchester City  DF               2240
 
--------------Bottom 3 player lowest at passing_total_cmp: -------------
+-------------Bottom 3 players with lowest passing_total_cmp: -------------
          Player Nation           Team   Pos  passing_total_cmp
   William Osula    DEN  Newcastle Utd    FW                 11
 Albert Grønbaek    DEN    Southampton FW,MF                 13
 Odsonne Édouard    FRA Crystal Palace MF,FW                 17
 
--------------Top 3 player highest at passing_total_cmppct: -------------
+-------------Top 3 players with highest passing_total_cmppct: -------------
         Player Nation            Team Pos  passing_total_cmppct
 William Saliba    FRA         Arsenal  DF                  94.2
  Manuel Akanji    SUI Manchester City  DF                  93.9
     Nathan Aké    NED Manchester City  DF                  93.9
 
--------------Bottom 3 player lowest at passing_total_cmppct: -------------
+-------------Bottom 3 players with lowest passing_total_cmppct: -------------
       Player Nation            Team Pos  passing_total_cmppct
    Matz Sels    BEL Nott'ham Forest  GK                  50.1
 George Hirst    SCO    Ipswich Town  FW                  55.0
         Beto    GNB         Everton  FW                  56.6
 
--------------Top 3 player highest at passing_total_totdist: -------------
+-------------Top 3 players with highest passing_total_totdist: -------------
          Player Nation      Team Pos  passing_total_totdist
 Virgil van Dijk    NED Liverpool  DF                  44780
    Levi Colwill    ENG   Chelsea  DF                  39487
  William Saliba    FRA   Arsenal  DF                  39201
 
--------------Bottom 3 player lowest at passing_total_totdist: -------------
+-------------Bottom 3 players with lowest passing_total_totdist: -------------
          Player Nation           Team   Pos  passing_total_totdist
   William Osula    DEN  Newcastle Utd    FW                    126
 Albert Grønbaek    DEN    Southampton FW,MF                    135
 Odsonne Édouard    FRA Crystal Palace MF,FW                    230
 
--------------Top 3 player highest at passing_short_cmppct: -------------
+-------------Top 3 players with highest passing_short_cmppct: -------------
            Player Nation         Team Pos  passing_short_cmppct
    Antonín Kinský    CZE    Tottenham  GK                 100.0
    Arijanet Muric    KVX Ipswich Town  GK                 100.0
 Caoimhín Kelleher    IRL    Liverpool  GK                 100.0
 
--------------Bottom 3 player lowest at passing_short_cmppct: -------------
+-------------Bottom 3 players with lowest passing_short_cmppct: -------------
        Player Nation          Team Pos  passing_short_cmppct
 William Osula    DEN Newcastle Utd  FW                  61.5
  Paul Onuachu    NGA   Southampton  FW                  63.8
  George Hirst    SCO  Ipswich Town  FW                  66.7
 
--------------Top 3 player highest at passing_medium_cmppct: -------------
+-------------Top 3 players with highest passing_medium_cmppct: -------------
            Player Nation           Team Pos  passing_medium_cmppct
       Alex Palmer    ENG   Ipswich Town  GK                  100.0
 Caoimhín Kelleher    IRL      Liverpool  GK                  100.0
        Danny Ward    WAL Leicester City  GK                  100.0
 
--------------Bottom 3 player lowest at passing_medium_cmppct: -------------
+-------------Bottom 3 players with lowest passing_medium_cmppct: -------------
          Player Nation         Team   Pos  passing_medium_cmppct
    George Hirst    SCO Ipswich Town    FW                   47.8
            Beto    GNB      Everton    FW                   48.5
 Albert Grønbaek    DEN  Southampton FW,MF                   50.0
 
--------------Top 3 player highest at passing_long_cmppct: -------------
+-------------Top 3 players with highest passing_long_cmppct: -------------
           Player Nation           Team   Pos  passing_long_cmppct
      Andy Irving    SCO       West Ham    MF                100.0
           Antony    BRA Manchester Utd DF,MF                100.0
 Chiedozie Ogbene    IRL   Ipswich Town    FW                100.0
 
--------------Bottom 3 player lowest at passing_long_cmppct: -------------
+-------------Bottom 3 players with lowest passing_long_cmppct: -------------
        Player Nation        Team   Pos  passing_long_cmppct
     Enes Ünal    TUR Bournemouth FW,MF                  0.0
 Evan Ferguson    IRL    West Ham    FW                  0.0
  Ross Stewart    SCO Southampton    FW                  0.0
 
--------------Top 3 player highest at passing_expected_kp: -------------
+-------------Top 3 players with highest passing_expected_kp: -------------
          Player Nation           Team Pos  passing_expected_kp
 Bruno Fernandes    POR Manchester Utd  MF                   84
   Mohamed Salah    EGY      Liverpool  FW                   80
     Cole Palmer    ENG        Chelsea  MF                   78
 
--------------Bottom 3 player lowest at passing_expected_kp: -------------
+-------------Bottom 3 players with lowest passing_expected_kp: -------------
          Player Nation        Team Pos  passing_expected_kp
  Aaron Ramsdale    ENG Southampton  GK                    0
   Alex McCarthy    ENG Southampton  GK                    0
 Alphonse Areola    FRA    West Ham  GK                    0
 
--------------Top 3 player highest at passing_expected_1_3: -------------
+-------------Top 3 players with highest passing_expected_1_3: -------------
          Player Nation            Team Pos  passing_expected_1_3
 Virgil van Dijk    NED       Liverpool  DF                   265
  Joško Gvardiol    CRO Manchester City  DF                   225
 Youri Tielemans    BEL     Aston Villa  MF                   221
 
--------------Bottom 3 player lowest at passing_expected_1_3: -------------
+-------------Bottom 3 players with lowest passing_expected_1_3: -------------
           Player Nation         Team Pos  passing_expected_1_3
    Ali Al Hamadi    IRQ Ipswich Town  FW                     0
 Chiedozie Ogbene    IRL Ipswich Town  FW                     0
    Evan Ferguson    IRL     West Ham  FW                     0
 
--------------Top 3 player highest at passing_expected_ppa: -------------
+-------------Top 3 players with highest passing_expected_ppa: -------------
          Player Nation      Team   Pos  passing_expected_ppa
   Mohamed Salah    EGY Liverpool    FW                    82
 Martin Ødegaard    NOR   Arsenal    MF                    78
      Alex Iwobi    NGA    Fulham FW,MF                    77
 
--------------Bottom 3 player lowest at passing_expected_ppa: -------------
+-------------Bottom 3 players with lowest passing_expected_ppa: -------------
             Player Nation            Team   Pos  passing_expected_ppa
 Abdukodir Khusanov    UZB Manchester City    DF                     0
    Albert Grønbaek    DEN     Southampton FW,MF                     0
      Alex McCarthy    ENG     Southampton    GK                     0
 
--------------Top 3 player highest at passing_expected_crspa: -------------
+-------------Top 3 players with highest passing_expected_crspa: -------------
           Player Nation        Team Pos  passing_expected_crspa
 Antonee Robinson    USA      Fulham  DF                      26
      Pedro Porro    ESP   Tottenham  DF                      26
     Milos Kerkez    HUN Bournemouth  DF                      22
 
--------------Bottom 3 player lowest at passing_expected_crspa: -------------
+-------------Bottom 3 players with lowest passing_expected_crspa: -------------
             Player Nation            Team Pos  passing_expected_crspa
     Aaron Ramsdale    ENG     Southampton  GK                       0
 Abdoulaye Doucouré    MLI         Everton  MF                       0
 Abdukodir Khusanov    UZB Manchester City  DF                       0
 
--------------Top 3 player highest at passing_expected_prgp: -------------
+-------------Top 3 players with highest passing_expected_prgp: -------------
          Player Nation            Team Pos  passing_expected_prgp
 Bruno Fernandes    POR  Manchester Utd  MF                    281
 Bruno Guimarães    BRA   Newcastle Utd  MF                    241
  Joško Gvardiol    CRO Manchester City  DF                    240
 
--------------Bottom 3 player lowest at passing_expected_prgp: -------------
+-------------Bottom 3 players with lowest passing_expected_prgp: -------------
         Player Nation        Team Pos  passing_expected_prgp
 Aaron Ramsdale    ENG Southampton  GK                      0
  Alex McCarthy    ENG Southampton  GK                      0
        Alisson    BRA   Liverpool  GK                      0
 
--------------Top 3 player highest at creation_sca_sca: -------------
+-------------Top 3 players with highest creation_sca_sca: -------------
          Player Nation           Team Pos  creation_sca_sca
     Cole Palmer    ENG        Chelsea  MF               180
 Bruno Fernandes    POR Manchester Utd  MF               169
   Mohamed Salah    EGY      Liverpool  FW               153
 
--------------Bottom 3 player lowest at creation_sca_sca: -------------
+-------------Bottom 3 players with lowest creation_sca_sca: -------------
            Player Nation        Team Pos  creation_sca_sca
     Alex McCarthy    ENG Southampton  GK                 0
           Ben Mee    ENG   Brentford  DF                 0
 Benoît Badiashile    FRA     Chelsea  DF                 0
 
--------------Top 3 player highest at creation_sca_sca90: -------------
+-------------Top 3 players with highest creation_sca_sca90: -------------
          Player Nation            Team   Pos  creation_sca_sca90
  Philip Billing    DEN     Bournemouth    MF                7.83
  Luis Guilherme    BRA        West Ham MF,FW                6.52
 Kevin De Bruyne    BEL Manchester City MF,FW                6.24
 
--------------Bottom 3 player lowest at creation_sca_sca90: -------------
+-------------Bottom 3 players with lowest creation_sca_sca90: -------------
            Player Nation        Team Pos  creation_sca_sca90
     Alex McCarthy    ENG Southampton  GK                 0.0
           Ben Mee    ENG   Brentford  DF                 0.0
 Benoît Badiashile    FRA     Chelsea  DF                 0.0
 
--------------Top 3 player highest at creation_gca_gca: -------------
+-------------Top 3 players with highest creation_gca_gca: -------------
           Player Nation      Team   Pos  creation_gca_gca
    Mohamed Salah    EGY Liverpool    FW                26
      Bukayo Saka    ENG   Arsenal FW,MF                22
 Mikkel Damsgaard    DEN Brentford MF,FW                21
 
--------------Bottom 3 player lowest at creation_gca_gca: -------------
+-------------Bottom 3 players with lowest creation_gca_gca: -------------
             Player Nation            Team Pos  creation_gca_gca
    Aaron Cresswell    ENG        West Ham  DF                 0
     Aaron Ramsdale    ENG     Southampton  GK                 0
 Abdukodir Khusanov    UZB Manchester City  DF                 0
 
--------------Top 3 player highest at creation_gca_gca90: -------------
+-------------Top 3 players with highest creation_gca_gca90: -------------
      Player Nation      Team   Pos  creation_gca_gca90
 Bukayo Saka    ENG   Arsenal FW,MF                1.36
 Solly March    ENG  Brighton FW,MF                1.08
 Mikey Moore    ENG Tottenham FW,MF                0.97
 
--------------Bottom 3 player lowest at creation_gca_gca90: -------------
+-------------Bottom 3 players with lowest creation_gca_gca90: -------------
             Player Nation            Team Pos  creation_gca_gca90
    Aaron Cresswell    ENG        West Ham  DF                 0.0
     Aaron Ramsdale    ENG     Southampton  GK                 0.0
 Abdukodir Khusanov    UZB Manchester City  DF                 0.0
 
--------------Top 3 player highest at defense_tackles_tkl: -------------
+-------------Top 3 players with highest defense_tackles_tkl: -------------
             Player Nation           Team Pos  defense_tackles_tkl
 Idrissa Gana Gueye    SEN        Everton  MF                  123
       Daniel Muñoz    COL Crystal Palace  DF                  109
  Noussair Mazraoui    MAR Manchester Utd  DF                  102
 
--------------Bottom 3 player lowest at defense_tackles_tkl: -------------
+-------------Bottom 3 players with lowest defense_tackles_tkl: -------------
         Player Nation         Team Pos  defense_tackles_tkl
 Aaron Ramsdale    ENG  Southampton  GK                    0
  Alex McCarthy    ENG  Southampton  GK                    0
    Alex Palmer    ENG Ipswich Town  GK                    0
 
--------------Top 3 player highest at defense_tackles_tklw: -------------
+-------------Top 3 players with highest defense_tackles_tklw: -------------
             Player Nation           Team Pos  defense_tackles_tklw
 Idrissa Gana Gueye    SEN        Everton  MF                    74
       Daniel Muñoz    COL Crystal Palace  DF                    70
     Moisés Caicedo    ECU        Chelsea  MF                    63
 
--------------Bottom 3 player lowest at defense_tackles_tklw: -------------
+-------------Bottom 3 players with lowest defense_tackles_tklw: -------------
         Player Nation         Team Pos  defense_tackles_tklw
 Aaron Ramsdale    ENG  Southampton  GK                     0
  Alex McCarthy    ENG  Southampton  GK                     0
    Alex Palmer    ENG Ipswich Town  GK                     0
 
--------------Top 3 player highest at defense_challenges_att: -------------
+-------------Top 3 players with highest defense_challenges_att: -------------
                 Player Nation      Team Pos  defense_challenges_att
    Alexis Mac Allister    ARG Liverpool  MF                     101
 Trent Alexander-Arnold    ENG Liverpool  DF                     101
             João Gomes    BRA    Wolves  MF                      97
 
--------------Bottom 3 player lowest at defense_challenges_att: -------------
+-------------Bottom 3 players with lowest defense_challenges_att: -------------
        Player Nation         Team Pos  defense_challenges_att
 Alex McCarthy    ENG  Southampton  GK                       0
   Alex Palmer    ENG Ipswich Town  GK                       0
 Armando Broja    ALB      Everton  FW                       0
 
--------------Top 3 player highest at defense_challenges_lost: -------------
+-------------Top 3 players with highest defense_challenges_lost: -------------
                 Player Nation            Team Pos  defense_challenges_lost
             João Gomes    BRA          Wolves  MF                       59
 Trent Alexander-Arnold    ENG       Liverpool  DF                       53
        Elliot Anderson    ENG Nott'ham Forest  MF                       51
 
--------------Bottom 3 player lowest at defense_challenges_lost: -------------
+-------------Bottom 3 players with lowest defense_challenges_lost: -------------
         Player Nation         Team Pos  defense_challenges_lost
  Alex McCarthy    ENG  Southampton  GK                        0
    Alex Palmer    ENG Ipswich Town  GK                        0
 Antonín Kinský    CZE    Tottenham  GK                        0
 
--------------Top 3 player highest at defense_blocks_blocks: -------------
+-------------Top 3 players with highest defense_blocks_blocks: -------------
          Player Nation            Team Pos  defense_blocks_blocks
  Nathan Collins    IRL       Brentford  DF                     68
         Murillo    BRA Nott'ham Forest  DF                     66
 Tyrick Mitchell    ENG  Crystal Palace  DF                     62
 
--------------Bottom 3 player lowest at defense_blocks_blocks: -------------
+-------------Bottom 3 players with lowest defense_blocks_blocks: -------------
         Player Nation         Team Pos  defense_blocks_blocks
 Aaron Ramsdale    ENG  Southampton  GK                      0
  Alex McCarthy    ENG  Southampton  GK                      0
    Alex Palmer    ENG Ipswich Town  GK                      0
 
--------------Top 3 player highest at defense_blocks_sh: -------------
+-------------Top 3 players with highest defense_blocks_sh: -------------
         Player Nation            Team Pos  defense_blocks_sh
 Nathan Collins    IRL       Brentford  DF                 48
    Dara O'Shea    IRL    Ipswich Town  DF                 47
        Murillo    BRA Nott'ham Forest  DF                 43
 
--------------Bottom 3 player lowest at defense_blocks_sh: -------------
+-------------Bottom 3 players with lowest defense_blocks_sh: -------------
                Player Nation           Team   Pos  defense_blocks_sh
        Aaron Ramsdale    ENG    Southampton    GK                  0
 Abdul Fatawu Issahaku    GHA Leicester City    FW                  0
          Adama Traoré    ESP         Fulham FW,MF                  0
 
--------------Top 3 player highest at defense_blocks_pass: -------------
+-------------Top 3 players with highest defense_blocks_pass: -------------
              Player Nation           Team Pos  defense_blocks_pass
 Alexis Mac Allister    ARG      Liverpool  MF                   54
     Antoine Semenyo    GHA    Bournemouth  FW                   51
     Tyrick Mitchell    ENG Crystal Palace  DF                   50
 
--------------Bottom 3 player lowest at defense_blocks_pass: -------------
+-------------Bottom 3 players with lowest defense_blocks_pass: -------------
          Player Nation        Team   Pos  defense_blocks_pass
  Aaron Ramsdale    ENG Southampton    GK                    0
 Albert Grønbaek    DEN Southampton FW,MF                    0
   Alex McCarthy    ENG Southampton    GK                    0
 
--------------Top 3 player highest at defense_blocks_int: -------------
+-------------Top 3 players with highest defense_blocks_int: -------------
            Player Nation      Team Pos  defense_blocks_int
 Aaron Wan-Bissaka    ENG  West Ham  DF                  59
  Ryan Gravenberch    NED Liverpool  MF                  57
  Antonee Robinson    USA    Fulham  DF                  56
 
--------------Bottom 3 player lowest at defense_blocks_int: -------------
+-------------Bottom 3 players with lowest defense_blocks_int: -------------
          Player Nation         Team   Pos  defense_blocks_int
 Albert Grønbaek    DEN  Southampton FW,MF                   0
   Alex McCarthy    ENG  Southampton    GK                   0
     Alex Palmer    ENG Ipswich Town    GK                   0
 
--------------Top 3 player highest at possession_touches_touches: -------------
+-------------Top 3 players with highest possession_touches_touches: -------------
          Player Nation            Team Pos  possession_touches_touches
 Virgil van Dijk    NED       Liverpool  DF                        3010
  Joško Gvardiol    CRO Manchester City  DF                        2808
    Levi Colwill    ENG         Chelsea  DF                        2669
 
--------------Bottom 3 player lowest at possession_touches_touches: -------------
+-------------Bottom 3 players with lowest possession_touches_touches: -------------
          Player Nation           Team   Pos  possession_touches_touches
 Albert Grønbaek    DEN    Southampton FW,MF                          38
   William Osula    DEN  Newcastle Utd    FW                          41
 Odsonne Édouard    FRA Crystal Palace MF,FW                          45
 
--------------Top 3 player highest at possession_touches_def_pen: -------------
+-------------Top 3 players with highest possession_touches_def_pen: -------------
       Player Nation           Team Pos  possession_touches_def_pen
 Mark Flekken    NED      Brentford  GK                        1261
   Bernd Leno    GER         Fulham  GK                        1066
  André Onana    CMR Manchester Utd  GK                        1005
 
--------------Bottom 3 player lowest at possession_touches_def_pen: -------------
+-------------Bottom 3 players with lowest possession_touches_def_pen: -------------
        Player Nation          Team   Pos  possession_touches_def_pen
   Emi Buendía    ARG   Aston Villa MF,FW                           0
 Callum Wilson    ENG Newcastle Utd    FW                           1
 Evan Ferguson    IRL      West Ham    FW                           1
 
--------------Top 3 player highest at possession_touches_def_3rd: -------------
+-------------Top 3 players with highest possession_touches_def_3rd: -------------
          Player Nation      Team Pos  possession_touches_def_3rd
    Mark Flekken    NED Brentford  GK                        1569
 Jordan Pickford    ENG   Everton  GK                        1451
      Bernd Leno    GER    Fulham  GK                        1318
 
--------------Bottom 3 player lowest at possession_touches_def_3rd: -------------
+-------------Bottom 3 players with lowest possession_touches_def_3rd: -------------
          Player Nation           Team   Pos  possession_touches_def_3rd
   William Osula    DEN  Newcastle Utd    FW                           2
 Odsonne Édouard    FRA Crystal Palace MF,FW                           4
   Callum Wilson    ENG  Newcastle Utd    FW                           5
 
--------------Top 3 player highest at possession_touches_mid_3rd: -------------
+-------------Top 3 players with highest possession_touches_mid_3rd: -------------
          Player Nation      Team Pos  possession_touches_mid_3rd
 Virgil van Dijk    NED Liverpool  DF                        1664
  William Saliba    FRA   Arsenal  DF                        1495
  Moisés Caicedo    ECU   Chelsea  MF                        1442
 
--------------Bottom 3 player lowest at possession_touches_mid_3rd: -------------
+-------------Bottom 3 players with lowest possession_touches_mid_3rd: -------------
         Player Nation           Team Pos  possession_touches_mid_3rd
  Alex McCarthy    ENG    Southampton  GK                           0
     Danny Ward    WAL Leicester City  GK                           0
 Fraser Forster    ENG      Tottenham  GK                           0
 
--------------Top 3 player highest at possession_touches_att_3rd: -------------
+-------------Top 3 players with highest possession_touches_att_3rd: -------------
          Player Nation           Team Pos  possession_touches_att_3rd
   Mohamed Salah    EGY      Liverpool  FW                         993
 Bruno Fernandes    POR Manchester Utd  MF                         888
    Bryan Mbeumo    CMR      Brentford  FW                         851
 
--------------Bottom 3 player lowest at possession_touches_att_3rd: -------------
+-------------Bottom 3 players with lowest possession_touches_att_3rd: -------------
         Player Nation         Team Pos  possession_touches_att_3rd
 Aaron Ramsdale    ENG  Southampton  GK                           0
  Alex McCarthy    ENG  Southampton  GK                           0
    Alex Palmer    ENG Ipswich Town  GK                           0
 
--------------Top 3 player highest at possession_touches_att_pen: -------------
+-------------Top 3 players with highest possession_touches_att_pen: -------------
          Player Nation          Team Pos  possession_touches_att_pen
   Mohamed Salah    EGY     Liverpool  FW                         320
 Antoine Semenyo    GHA   Bournemouth  FW                         176
  Alexander Isak    SWE Newcastle Utd  FW                         175
 
--------------Bottom 3 player lowest at possession_touches_att_pen: -------------
+-------------Bottom 3 players with lowest possession_touches_att_pen: -------------
         Player Nation         Team Pos  possession_touches_att_pen
 Aaron Ramsdale    ENG  Southampton  GK                           0
  Alex McCarthy    ENG  Southampton  GK                           0
    Alex Palmer    ENG Ipswich Town  GK                           0
 
--------------Top 3 player highest at possession_takeons_att: -------------
+-------------Top 3 players with highest possession_takeons_att: -------------
         Player Nation            Team   Pos  possession_takeons_att
 Mohammed Kudus    GHA        West Ham FW,MF                     188
    Jeremy Doku    BEL Manchester City FW,MF                     175
  Morgan Rogers    ENG     Aston Villa FW,MF                     145
 
--------------Bottom 3 player lowest at possession_takeons_att: -------------
+-------------Bottom 3 players with lowest possession_takeons_att: -------------
         Player Nation         Team Pos  possession_takeons_att
 Aaron Ramsdale    ENG  Southampton  GK                       0
  Alex McCarthy    ENG  Southampton  GK                       0
    Alex Palmer    ENG Ipswich Town  GK                       0
 
--------------Top 3 player highest at possession_takeons_succpct: -------------
+-------------Top 3 players with highest possession_takeons_succpct: -------------
          Player Nation      Team Pos  possession_takeons_succpct
 Aaron Cresswell    ENG  West Ham  DF                       100.0
         Alisson    BRA Liverpool  GK                       100.0
     Andy Irving    SCO  West Ham  MF                       100.0
 
--------------Bottom 3 player lowest at possession_takeons_succpct: -------------
+-------------Bottom 3 players with lowest possession_takeons_succpct: -------------
              Player Nation            Team   Pos  possession_takeons_succpct
  Abdukodir Khusanov    UZB Manchester City    DF                         0.0
     Albert Grønbaek    DEN     Southampton FW,MF                         0.0
 Armel Bella Kotchap    GER     Southampton    DF                         0.0
 
--------------Top 3 player highest at possession_takeons_tkldpct: -------------
+-------------Top 3 players with highest possession_takeons_tkldpct: -------------
              Player Nation            Team   Pos  possession_takeons_tkldpct
  Abdukodir Khusanov    UZB Manchester City    DF                       100.0
     Albert Grønbaek    DEN     Southampton FW,MF                       100.0
 Armel Bella Kotchap    GER     Southampton    DF                       100.0
 
--------------Bottom 3 player lowest at possession_takeons_tkldpct: -------------
+-------------Bottom 3 players with lowest possession_takeons_tkldpct: -------------
          Player Nation      Team Pos  possession_takeons_tkldpct
 Aaron Cresswell    ENG  West Ham  DF                         0.0
         Alisson    BRA Liverpool  GK                         0.0
     Andy Irving    SCO  West Ham  MF                         0.0
 
--------------Top 3 player highest at possession_carries_carries: -------------
+-------------Top 3 players with highest possession_carries_carries: -------------
          Player Nation            Team Pos  possession_carries_carries
  Joško Gvardiol    CRO Manchester City  DF                        1826
 Virgil van Dijk    NED       Liverpool  DF                        1682
  William Saliba    FRA         Arsenal  DF                        1642
 
--------------Bottom 3 player lowest at possession_carries_carries: -------------
+-------------Bottom 3 players with lowest possession_carries_carries: -------------
          Player Nation            Team   Pos  possession_carries_carries
   Harry Toffolo    ENG Nott'ham Forest    DF                          17
 Albert Grønbaek    DEN     Southampton FW,MF                          18
 Odsonne Édouard    FRA  Crystal Palace MF,FW                          23
 
--------------Top 3 player highest at possession_carries_prgdist: -------------
+-------------Top 3 players with highest possession_carries_prgdist: -------------
             Player Nation            Team Pos  possession_carries_prgdist
 Jan Paul van Hecke    NED        Brighton  DF                        6643
     Joško Gvardiol    CRO Manchester City  DF                        5505
         Rúben Dias    POR Manchester City  DF                        5097
 
--------------Bottom 3 player lowest at possession_carries_prgdist: -------------
+-------------Bottom 3 players with lowest possession_carries_prgdist: -------------
          Player Nation            Team   Pos  possession_carries_prgdist
 Albert Grønbaek    DEN     Southampton FW,MF                          15
   Harry Toffolo    ENG Nott'ham Forest    DF                          23
  Massimo Luongo    AUS    Ipswich Town    MF                          25
 
--------------Top 3 player highest at possession_carries_prgc: -------------
+-------------Top 3 players with highest possession_carries_prgc: -------------
        Player Nation            Team   Pos  possession_carries_prgc
   Jeremy Doku    BEL Manchester City FW,MF                      176
 Mohamed Salah    EGY       Liverpool    FW                      142
  Kaoru Mitoma    JPN        Brighton FW,MF                      138
 
--------------Bottom 3 player lowest at possession_carries_prgc: -------------
+-------------Bottom 3 players with lowest possession_carries_prgc: -------------
         Player Nation         Team Pos  possession_carries_prgc
 Aaron Ramsdale    ENG  Southampton  GK                        0
  Alex McCarthy    ENG  Southampton  GK                        0
    Alex Palmer    ENG Ipswich Town  GK                        0
 
--------------Top 3 player highest at possession_carries_1_3: -------------
+-------------Top 3 players with highest possession_carries_1_3: -------------
         Player Nation            Team   Pos  possession_carries_1_3
     Alex Iwobi    NGA          Fulham FW,MF                      99
 Joško Gvardiol    CRO Manchester City    DF                      91
  Matheus Cunha    BRA          Wolves MF,FW                      88
 
--------------Bottom 3 player lowest at possession_carries_1_3: -------------
+-------------Bottom 3 players with lowest possession_carries_1_3: -------------
          Player Nation        Team   Pos  possession_carries_1_3
  Aaron Ramsdale    ENG Southampton    GK                       0
 Albert Grønbaek    DEN Southampton FW,MF                       0
   Alex McCarthy    ENG Southampton    GK                       0
 
--------------Top 3 player highest at possession_carries_cpa: -------------
+-------------Top 3 players with highest possession_carries_cpa: -------------
        Player Nation            Team   Pos  possession_carries_cpa
 Mohamed Salah    EGY       Liverpool    FW                     113
   Jeremy Doku    BEL Manchester City FW,MF                      80
  Noni Madueke    ENG         Chelsea    FW                      80
 
--------------Bottom 3 player lowest at possession_carries_cpa: -------------
+-------------Bottom 3 players with lowest possession_carries_cpa: -------------
             Player Nation            Team Pos  possession_carries_cpa
    Aaron Cresswell    ENG        West Ham  DF                       0
     Aaron Ramsdale    ENG     Southampton  GK                       0
 Abdukodir Khusanov    UZB Manchester City  DF                       0
 
--------------Top 3 player highest at possession_carries_mis: -------------
+-------------Top 3 players with highest possession_carries_mis: -------------
        Player Nation         Team   Pos  possession_carries_mis
 Mohamed Salah    EGY    Liverpool    FW                     105
 Morgan Rogers    ENG  Aston Villa FW,MF                     102
    Liam Delap    ENG Ipswich Town    FW                      96
 
--------------Bottom 3 player lowest at possession_carries_mis: -------------
+-------------Bottom 3 players with lowest possession_carries_mis: -------------
          Player Nation        Team Pos  possession_carries_mis
   Alex McCarthy    ENG Southampton  GK                       0
 Alphonse Areola    FRA    West Ham  GK                       0
  Antonín Kinský    CZE   Tottenham  GK                       0
 
--------------Top 3 player highest at possession_carries_dis: -------------
+-------------Top 3 players with highest possession_carries_dis: -------------
           Player Nation          Team   Pos  possession_carries_dis
   Mohammed Kudus    GHA      West Ham FW,MF                      88
  Bruno Guimarães    BRA Newcastle Utd    MF                      73
 Dejan Kulusevski    SWE     Tottenham MF,FW                      72
 
--------------Bottom 3 player lowest at possession_carries_dis: -------------
+-------------Bottom 3 players with lowest possession_carries_dis: -------------
          Player Nation        Team Pos  possession_carries_dis
 Aaron Cresswell    ENG    West Ham  DF                       0
  Aaron Ramsdale    ENG Southampton  GK                       0
   Alex McCarthy    ENG Southampton  GK                       0
 
--------------Top 3 player highest at possession_receiving_rec: -------------
+-------------Top 3 players with highest possession_receiving_rec: -------------
          Player Nation            Team Pos  possession_receiving_rec
 Virgil van Dijk    NED       Liverpool  DF                      2063
  Joško Gvardiol    CRO Manchester City  DF                      2062
  William Saliba    FRA         Arsenal  DF                      2013
 
--------------Bottom 3 player lowest at possession_receiving_rec: -------------
+-------------Bottom 3 players with lowest possession_receiving_rec: -------------
          Player Nation           Team   Pos  possession_receiving_rec
 Albert Grønbaek    DEN    Southampton FW,MF                        21
 Odsonne Édouard    FRA Crystal Palace MF,FW                        26
   William Osula    DEN  Newcastle Utd    FW                        27
 
--------------Top 3 player highest at possession_receiving_prgr: -------------
+-------------Top 3 players with highest possession_receiving_prgr: -------------
        Player Nation      Team   Pos  possession_receiving_prgr
 Mohamed Salah    EGY Liverpool    FW                        425
  Bryan Mbeumo    CMR Brentford    FW                        300
  Kaoru Mitoma    JPN  Brighton FW,MF                        277
 
--------------Bottom 3 player lowest at possession_receiving_prgr: -------------
+-------------Bottom 3 players with lowest possession_receiving_prgr: -------------
         Player Nation         Team Pos  possession_receiving_prgr
 Aaron Ramsdale    ENG  Southampton  GK                          0
  Alex McCarthy    ENG  Southampton  GK                          0
    Alex Palmer    ENG Ipswich Town  GK                          0
 
--------------Top 3 player highest at misc_performance_fls: -------------
+-------------Top 3 players with highest misc_performance_fls: -------------
          Player Nation         Team Pos  misc_performance_fls
 Antoine Semenyo    GHA  Bournemouth  FW                    65
      João Gomes    BRA       Wolves  MF                    65
      Liam Delap    ENG Ipswich Town  FW                    65
 
--------------Bottom 3 player lowest at misc_performance_fls: -------------
+-------------Bottom 3 players with lowest misc_performance_fls: -------------
          Player Nation        Team   Pos  misc_performance_fls
 Albert Grønbaek    DEN Southampton FW,MF                     0
   Alex McCarthy    ENG Southampton    GK                     0
         Alisson    BRA   Liverpool    GK                     0
 
--------------Top 3 player highest at misc_performance_fld: -------------
+-------------Top 3 players with highest misc_performance_fld: -------------
          Player Nation          Team   Pos  misc_performance_fld
 Bruno Guimarães    BRA Newcastle Utd    MF                    99
   Matheus Cunha    BRA        Wolves MF,FW                    69
  James Maddison    ENG     Tottenham    MF                    64
 
--------------Bottom 3 player lowest at misc_performance_fld: -------------
+-------------Bottom 3 players with lowest misc_performance_fld: -------------
          Player Nation        Team   Pos  misc_performance_fld
 Alphonse Areola    FRA    West Ham    GK                     0
   Andrés García    ESP Aston Villa DF,MF                     0
  Antonín Kinský    CZE   Tottenham    GK                     0
 
--------------Top 3 player highest at misc_performance_off: -------------
+-------------Top 3 players with highest misc_performance_off: -------------
                Player Nation            Team Pos  misc_performance_off
 Dominic Calvert-Lewin    ENG         Everton  FW                    27
           Jamie Vardy    ENG  Leicester City  FW                    25
            Chris Wood    NZL Nott'ham Forest  FW                    24
 
--------------Bottom 3 player lowest at misc_performance_off: -------------
+-------------Bottom 3 players with lowest misc_performance_off: -------------
             Player Nation            Team Pos  misc_performance_off
    Aaron Cresswell    ENG        West Ham  DF                     0
     Aaron Ramsdale    ENG     Southampton  GK                     0
 Abdukodir Khusanov    UZB Manchester City  DF                     0
 
--------------Top 3 player highest at misc_performance_crs: -------------
+-------------Top 3 players with highest misc_performance_crs: -------------
          Player Nation           Team Pos  misc_performance_crs
     Pedro Porro    ESP      Tottenham  DF                   191
 Bruno Fernandes    POR Manchester Utd  MF                   172
    Bryan Mbeumo    CMR      Brentford  FW                   171
 
--------------Bottom 3 player lowest at misc_performance_crs: -------------
+-------------Bottom 3 players with lowest misc_performance_crs: -------------
         Player Nation         Team Pos  misc_performance_crs
 Aaron Ramsdale    ENG  Southampton  GK                     0
  Alex McCarthy    ENG  Southampton  GK                     0
    Alex Palmer    ENG Ipswich Town  GK                     0
 
--------------Top 3 player highest at misc_performance_recov: -------------
+-------------Top 3 players with highest misc_performance_recov: -------------
          Player Nation           Team Pos  misc_performance_recov
  Moisés Caicedo    ECU        Chelsea  MF                     197
 Bruno Fernandes    POR Manchester Utd  MF                     192
   Ryan Christie    SCO    Bournemouth  MF                     182
 
--------------Bottom 3 player lowest at misc_performance_recov: -------------
+-------------Bottom 3 players with lowest misc_performance_recov: -------------
                  Player Nation           Team Pos  misc_performance_recov
              Danny Ward    WAL Leicester City  GK                       1
          Fraser Forster    ENG      Tottenham  GK                       1
 Hákon Rafn Valdimarsson    ISL      Brentford  GK                       1
 
--------------Top 3 player highest at misc_aerial_won: -------------
+-------------Top 3 players with highest misc_aerial_won: -------------
          Player Nation          Team Pos  misc_aerial_won
        Dan Burn    ENG Newcastle Utd  DF              127
 Virgil van Dijk    NED     Liverpool  DF              110
  Nathan Collins    IRL     Brentford  DF              103
 
--------------Bottom 3 player lowest at misc_aerial_won: -------------
+-------------Bottom 3 players with lowest misc_aerial_won: -------------
        Player Nation           Team   Pos  misc_aerial_won
 Andrés García    ESP    Aston Villa DF,MF                0
        Antony    BRA Manchester Utd DF,MF                0
 Billy Gilmour    SCO       Brighton    MF                0
 
--------------Top 3 player highest at misc_aerial_lost: -------------
+-------------Top 3 players with highest misc_aerial_lost: -------------
               Player Nation            Team Pos  misc_aerial_lost
           Chris Wood    NZL Nott'ham Forest  FW               117
 Jørgen Strand Larsen    NOR          Wolves  FW                96
 Jean-Philippe Mateta    FRA  Crystal Palace  FW                95
 
--------------Bottom 3 player lowest at misc_aerial_lost: -------------
+-------------Bottom 3 players with lowest misc_aerial_lost: -------------
          Player Nation        Team   Pos  misc_aerial_lost
  Aaron Ramsdale    ENG Southampton    GK                 0
 Albert Grønbaek    DEN Southampton FW,MF                 0
   Alex McCarthy    ENG Southampton    GK                 0
 
--------------Top 3 player highest at misc_aerial_wonpct: -------------
+-------------Top 3 players with highest misc_aerial_wonpct: -------------
          Player Nation        Team   Pos  misc_aerial_wonpct
  Aaron Ramsdale    ENG Southampton    GK               100.0
 Albert Grønbaek    DEN Southampton FW,MF               100.0
   Alex McCarthy    ENG Southampton    GK               100.0
 
--------------Bottom 3 player lowest at misc_aerial_wonpct: -------------
+-------------Bottom 3 players with lowest misc_aerial_wonpct: -------------
        Player Nation           Team   Pos  misc_aerial_wonpct
 Andrés García    ESP    Aston Villa DF,MF                 0.0
        Antony    BRA Manchester Utd DF,MF                 0.0
