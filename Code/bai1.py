@@ -8,6 +8,13 @@ import time
 import undetected_chromedriver as uc
 
 
+
+def convert_nation(nation_str):
+    res=''
+    for x in nation_str:
+        if x.isupper():
+            res+=x
+    return res
 # Khởi tạo driver
 options=uc.ChromeOptions()
 service = Service(ChromeDriverManager().install())
@@ -101,12 +108,11 @@ bang.append(tables['stats_misc'])
 for table in bang[1:]:
     df_stat_standard=pd.merge(df_stat_standard,table,on=["Player","Nation","Squad","Pos"],how='left')
 
-# df_stat_standard=pd.merge(df_stat_standard,tables['stats_keeper'],on="Player",how='left')
+
 df_stat_standard=df_stat_standard.drop_duplicates(subset=['Player','Squad'])
 df_stat_standard = df_stat_standard.replace("", "N/a").fillna("N/a")
 
 df_stat_standard['Nation'] = df_stat_standard['Nation'].apply(convert_nation)
-# df_stat_standard['Age'] = df_stat_standard['Age'].apply(convert_age) #chuyen tuoi ve dang thap phan
 
 
 
@@ -122,7 +128,6 @@ header=[
     "possession_carries_1_3","possession_carries_cpa","possession_carries_mis","possession_carries_dis","possession_receiving_rec","possession_receiving_prgr",
     "misc_performance_fls","misc_performance_fld","misc_performance_off","misc_performance_crs","misc_performance_recov","misc_aerial_won","misc_aerial_lost","misc_aerial_wonpct"
 ]
-
 #swap squad với pos
 df_stat_standard.columns=header
 cols = list(df_stat_standard.columns)
