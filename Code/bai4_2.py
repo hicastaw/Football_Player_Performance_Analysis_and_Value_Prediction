@@ -6,7 +6,8 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from xgboost import XGBRegressor
-
+import seaborn as sns
+from rac import top_20_features
 # Function to convert currency values
 def convert_value(value_str):
     if isinstance(value_str, str):
@@ -100,13 +101,15 @@ def prepare_data(df):
         return None, None, None
 
     # Split X and y
-    X = df[available_features]
-    y = df['Value']
+    X_tmp = df[available_features]
+    y_tmp = df['Value']
+    header_results=top_20_features(X_tmp,y_tmp)
+    X=X_tmp[header_results]
+    y=y_tmp 
 
     # Apply pd.to_numeric to each column using a loop
     for col in X.columns:
         X[col] = pd.to_numeric(X[col], errors='coerce')
-
     print(f"X shape after final preparation: {X.shape}")
     print(f"y shape after final preparation: {y.shape}")
 
@@ -123,19 +126,20 @@ models = {
 # Keep grid small for trial runs to save time
 param_grids = {
     'Random Forest': {
-        'n_estimators': [100, 200], # Number of trees
-        'max_depth': [10, 20, None], # Maximum depth of trees
-        'min_samples_split': [2, 5], # Minimum samples to split a node
-        'min_samples_leaf': [1, 2] # Minimum samples at leaf node
+        'n_estimators': [100],                # giữ số cây vừa phải
+        'max_depth': [5, 10],                 # giới hạn độ sâu cây (tránh cây quá phức tạp)
+        'min_samples_split': [5, 10],         # tăng số lượng mẫu tối thiểu để chia node
+        'min_samples_leaf': [2, 4, 6],        # tăng số mẫu ở lá để giảm số node
+        'max_features': ['sqrt', 0.5]         # chọn ngẫu nhiên số lượng feature tại mỗi node
     },
 
     'XGBoost': {
-        'n_estimators': [100, 200], # Number of boost trees
-        'learning_rate': [0.05, 0.1], # Learning rate
-        'max_depth': [3, 5], # Maximum tree depth
-        'subsample': [0.8, 1.0], # Fraction of samples for each tree
-        'colsample_bytree': [0.8, 1.0], # Fraction of features for each tree
-        'gamma': [0, 0.1] # Minimum loss reduction to split
+        'n_estimators': [100, 200],
+        'learning_rate': [0.05, 0.1],
+        'max_depth': [3, 5],
+        'subsample': [0.8, 1.0],
+        'colsample_bytree': [0.8, 1.0],
+        'gamma': [0, 0.1]
     }
 }
 
@@ -204,10 +208,9 @@ def tunning(X, y, model, param_grids):
     X_test_scaled = scaler.transform(X_test)
 
     print("\nStarting model tuning (if available):")
-
     print(f"\n--- Processing model: {model} ---")
     best_model = model
-    best_params = "N/A (No tuning)" # Default no tuning
+    best_params = "N/A (No tuning)"  # Default no tuning
 
     if model in param_grids:
         print(f"  Starting tuning for {model} using Grid Search...")
@@ -227,15 +230,27 @@ def tunning(X, y, model, param_grids):
         print(f"  Best R2 score on training set (cross-validation): {grid_search.best_score_:.4f}")
     else:
         print(f"  Training {model} with default parameters, result remains unchanged...")
+        best_model.fit(X_train_scaled, y_train)
 
     try:
-        y_pred = best_model.predict(X_test_scaled)
-        mse = mean_squared_error(y_test, y_pred)
-        mae = mean_absolute_error(y_test, y_pred)
-        r2 = r2_score(y_test, y_pred)
+        # Predictions
+        y_train_pred = best_model.predict(X_train_scaled)
+        y_test_pred = best_model.predict(X_test_scaled)
+
+        # Evaluate train
+        train_mse = mean_squared_error(y_train, y_train_pred)
+        train_mae = mean_absolute_error(y_train, y_train_pred)
+        train_r2 = r2_score(y_train, y_train_pred)
+
+        # Evaluate test
+        test_mse = mean_squared_error(y_test, y_test_pred)
+        test_mae = mean_absolute_error(y_test, y_test_pred)
+        test_r2 = r2_score(y_test, y_test_pred)
 
         print(f"  Evaluation completed for {model}.")
-        print(f"  Test results: MSE={mse:.2f}, MAE={mae:.2f}, R2={r2:.4f}")
+        print(f"  Train results: MSE={train_mse:.2f}, MAE={train_mae:.2f}, R2={train_r2:.4f}")
+        print(f"  Test results : MSE={test_mse:.2f}, MAE={test_mae:.2f}, R2={test_r2:.4f}")
+
     except Exception as e:
         print(f"  Error evaluating {model} on test set: {e}")
 

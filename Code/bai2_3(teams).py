@@ -21,8 +21,8 @@ teams = sorted(list(set(list(df['Team']))))
 
 # List of statistical columns to create histograms for
 headers = ["Gls", "shooting_standard_sotpct", "shooting_standard_sot_per90", 
-           "defense_tackles_tklw", "defense_challenges_att", "defense_challenges_lost", 
-           "defense_blocks_blocks"]
+           "defense_tackles_tklw", "defense_challenges_att", "defense_challenges_lost"
+           ]
 
 # Loop through each team in the 'teams' list
 for team in teams:

@@ -21,8 +21,8 @@ df['Age'] = df['Age'].apply(convert_age)
 
 # Define the list of statistical columns we want to create histograms for
 headers = ["Gls", "shooting_standard_sotpct", "shooting_standard_sot_per90", 
-           "defense_tackles_tklw", "defense_challenges_att", "defense_challenges_lost", 
-           "defense_blocks_blocks"]
+           "defense_tackles_tklw", "defense_challenges_att", "defense_challenges_lost"
+           ]
 
 # Loop through each column in the 'headers' list to create a histogram
 for head in headers:

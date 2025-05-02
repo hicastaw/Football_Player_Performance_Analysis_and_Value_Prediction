@@ -35,7 +35,7 @@ def optimize_kmean(data, k_range):
         means.append(k)  # Append the current k value
         inertia.append(kmeans.inertia_)  # Append the inertia (sum of squared distances of samples to their centroids)
     return inertia  # Return the list of inertia values
-
+    
 # Load the dataset from the specified file path
 file_path = r'E:\ket_qua_bai_tap_lon\Code\results.csv'
 df = pd.read_csv(file_path)
