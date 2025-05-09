@@ -12,7 +12,7 @@ def convert_age(age_str):
     return None  # Return None if not a string or wrong format
 
 # Read CSV file
-file_path = r'E:\ket_qua_bai_tap_lon\Code\results.csv'  # use raw string to avoid path errors
+file_path = r'Code\\results.csv'  # use raw string to avoid path errors
 df = pd.read_csv(file_path)
 
 # Apply age conversion
