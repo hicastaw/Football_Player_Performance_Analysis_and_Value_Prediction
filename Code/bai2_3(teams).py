@@ -1,6 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
+from pathlib import Path
 # Function to convert age from 'year-days' format to decimal years
 def convert_age(age_str):
     if isinstance(age_str, str) and '-' in age_str:
@@ -13,7 +13,8 @@ def convert_age(age_str):
     return None  # Return None if the format is not 'year-days'
 
 # Load the data from the specified file path
-file_path = r'Code\\results.csv'
+current_dir = Path(__file__).parent
+file_path = current_dir / 'results.csv'
 df = pd.read_csv(file_path)
 
 # Get a sorted list of unique teams from the 'Team' column

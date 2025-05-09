@@ -1,4 +1,5 @@
 import pandas as pd
+from pathlib import Path
 import matplotlib.pyplot as plt
 
 from sklearn.preprocessing import StandardScaler
@@ -37,7 +38,8 @@ def optimize_kmean(data, k_range):
     return inertia  # Return the list of inertia values
     
 # Load the dataset from the specified file path
-file_path = r'Code\\results.csv'
+current_dir = Path(__file__).parent
+file_path = current_dir / 'results.csv'
 df = pd.read_csv(file_path)
 
 # Apply the age conversion function to the 'Age' column

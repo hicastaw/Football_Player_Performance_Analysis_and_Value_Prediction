@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
-
+from pathlib import Path
 import seaborn as sns
 
 
@@ -42,7 +42,9 @@ def top_20_features(X, y):
         plt.xlabel('Mức độ quan trọng')
         plt.ylabel('Feature')
         plt.tight_layout()
-        plt.savefig('Code\\top_20_features_rf.png', dpi=300)
+        current_dir = Path(__file__).parent
+        file_path = current_dir / 'top_20_features_rf.png'
+        plt.savefig(file_path, dpi=300)
         plt.show()
         # Return the top 20 features as a list
         return importance_df['Feature'].head(20).tolist()

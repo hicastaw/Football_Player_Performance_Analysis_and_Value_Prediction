@@ -1,4 +1,5 @@
 import pandas as pd
+from pathlib import Path
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -50,7 +51,9 @@ def load_and_preprocess(file_path):
     df['Age'] = df['Age'].apply(convert_age)
 
     # Try to merge with value file if needed
-    value_file_path = file_path = r'Code\\transfer_value.csv'
+    current_dir = Path(__file__).parent
+    file_path = current_dir / 'transfer_value.csv'
+    value_file_path = file_path
     try:
         df_tmp = pd.read_csv(value_file_path)
         # Perform merge, use value from df_tmp if available
@@ -257,7 +260,9 @@ def tunning(X, y, model, param_grids):
 # 3. Main execution
 if __name__ == "__main__":
     # Path to data file
-    data_file_path = r'Code\\results.csv'
+    current_dir = Path(__file__).parent
+    file_path = current_dir / 'results.csv'
+    data_file_path = file_path
 
     # 1. Load and preprocess data
     df = load_and_preprocess(data_file_path)

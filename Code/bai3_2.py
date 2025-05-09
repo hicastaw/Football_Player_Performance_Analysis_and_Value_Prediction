@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
@@ -17,7 +18,8 @@ def convert_age(age_str):
     return None  # Return None if format is incorrect
 
 # Read data from CSV file
-file_path = r'Code\\results.csv'
+current_dir = Path(__file__).parent
+file_path = current_dir / 'results.csv'
 df = pd.read_csv(file_path)
 
 # Apply age conversion function to the 'Age' column

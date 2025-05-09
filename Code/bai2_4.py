@@ -1,7 +1,8 @@
 import pandas as pd
-
+from pathlib import Path
 # Load the CSV file into a DataFrame
-file_path = r'Code\\results2.csv'
+current_dir = Path(__file__).parent
+file_path = current_dir / 'results.csv'
 df = pd.read_csv(file_path)
 
 # Create a set of teams from the second column (ignoring the first row which is header)
