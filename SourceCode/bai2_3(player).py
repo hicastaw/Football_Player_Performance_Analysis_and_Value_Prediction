@@ -13,7 +13,8 @@ def convert_age(age_str):
     return None  # Return None if the format is not 'year-days'
 
 # Load the data from the specified file path
-file_path = r'Code\\results.csv'
+current_dir = Path(__file__).parent
+file_path = current_dir / 'results2.csv'
 df = pd.read_csv(file_path)
 
 # Convert the 'Age' column to decimal years using the function
