@@ -37,7 +37,7 @@ def optimize_kmean(data, k_range):
     return inertia  # Return the list of inertia values
     
 # Load the dataset from the specified file path
-file_path = r'E:\ket_qua_bai_tap_lon\Code\results.csv'
+file_path = r'Code\\results.csv'
 df = pd.read_csv(file_path)
 
 # Apply the age conversion function to the 'Age' column

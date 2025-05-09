@@ -13,7 +13,7 @@ def convert_age(age_str):
     return None  # Return None if the format is not 'year-days'
 
 # Read the CSV file and apply age conversion
-file_path = r'E:\ket_qua_bai_tap_lon\Code\results.csv'
+file_path = r'Code\\results.csv'
 df = pd.read_csv(file_path)
 df['Age'] = df['Age'].apply(convert_age)  # Apply the convert_age function to the 'Age' column
 headers = list(df.columns)  # List all column names
@@ -60,5 +60,5 @@ for team in teams:
 summary_df = pd.DataFrame(result_rows, columns=a)
 
 # (Optional) Save the result to a CSV file
-file_path = r'E:\ket_qua_bai_tap_lon\Code\results2.csv'
+file_path = r'Code\\results2.csv'
 summary_df.to_csv(file_path, index=True, encoding='utf-8-sig')  # Save to CSV with UTF-8 encoding

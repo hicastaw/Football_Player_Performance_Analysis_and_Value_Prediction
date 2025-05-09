@@ -50,7 +50,7 @@ def load_and_preprocess(file_path):
     df['Age'] = df['Age'].apply(convert_age)
 
     # Try to merge with value file if needed
-    value_file_path = file_path = r'E:\ket_qua_bai_tap_lon\Code\results4.csv'
+    value_file_path = file_path = r'Code\\transfer_value.csv'
     try:
         df_tmp = pd.read_csv(value_file_path)
         # Perform merge, use value from df_tmp if available
@@ -257,7 +257,7 @@ def tunning(X, y, model, param_grids):
 # 3. Main execution
 if __name__ == "__main__":
     # Path to data file
-    data_file_path = r'E:\ket_qua_bai_tap_lon\Code\results.csv'
+    data_file_path = r'Code\\results.csv'
 
     # 1. Load and preprocess data
     df = load_and_preprocess(data_file_path)

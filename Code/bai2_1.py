@@ -40,7 +40,7 @@ for header in headers[4:]:
     a.append(df_tmp_2.iloc[:, [0, 1, 2, 3, df_tmp_2.columns.get_loc(header)]])
 
 # Export results to text file
-file_path = r'E:\ket_qua_bai_tap_lon\Code\top_3.txt'
+file_path = r'Code\\top_3.txt'
 with open(file_path, 'w', encoding='utf-8') as f:
     for item in a:
         if isinstance(item, str):

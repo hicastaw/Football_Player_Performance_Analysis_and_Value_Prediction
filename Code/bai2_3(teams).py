@@ -13,7 +13,7 @@ def convert_age(age_str):
     return None  # Return None if the format is not 'year-days'
 
 # Load the data from the specified file path
-file_path = r'E:\ket_qua_bai_tap_lon\Code\results.csv'
+file_path = r'Code\\results.csv'
 df = pd.read_csv(file_path)
 
 # Get a sorted list of unique teams from the 'Team' column

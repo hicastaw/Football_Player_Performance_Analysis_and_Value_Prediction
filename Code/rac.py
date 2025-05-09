@@ -42,7 +42,7 @@ def top_20_features(X, y):
         plt.xlabel('Mức độ quan trọng')
         plt.ylabel('Feature')
         plt.tight_layout()
-        plt.savefig('top_20_features_rf.png', dpi=300)
+        plt.savefig('Code\\top_20_features_rf.png', dpi=300)
         plt.show()
         # Return the top 20 features as a list
         return importance_df['Feature'].head(20).tolist()

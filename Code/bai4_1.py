@@ -91,7 +91,7 @@ new_header = ['Player', 'Team', 'Value']
 df_results.columns = new_header  # Rename columns to match expected names
 
 # 4) Read the results CSV file containing 'Player' and 'Min' columns
-file_path = r'E:\ket_qua_bai_tap_lon\Code\results.csv'
+file_path = r'Code\\results.csv'
 df_tmp = pd.read_csv(file_path)
 
 # 5) Match player names from the CSV with the data from the API using fuzzy matching
@@ -129,6 +129,6 @@ for idx, row in result_tmp.iterrows():
         print(f"Could not find value for player: {name} - {team}")  # Print message if value not found
 
 # 9) Export the final result to a CSV file
-file_path = r'E:\ket_qua_bai_tap_lon\Code\results4.csv'
+file_path = r'Code\\transfer_value.csv'
 result_filtered.to_csv(file_path, index=False, encoding='utf-8-sig')
-print("Completed! The file 'results4.csv' has been saved.")  # Completion message
+print("Completed! The file 'transfer_value' has been saved.")  # Completion message
